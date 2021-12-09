@@ -910,7 +910,7 @@ module.exports = handle = (client, Client) => {
 				break
                 case 'command':
                 case 'cmd':
-                case 'menu':
+                case 'меню':
                 case 'help':
                 case 'list':
  	                 const mediaMsg = await client.prepareMessageMedia(await getBuffer(configs.imgUrl), 'imageMessage')
